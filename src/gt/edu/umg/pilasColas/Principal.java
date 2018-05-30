@@ -3,10 +3,9 @@ import java.util.Scanner;
 
 public class Principal {
 	public static void main(String[] args) {
-		menu();
-	}	
-	
-	public static void menu() {
+		Cola cl = new Cola();
+		cl.insertar();
+	/*public static void menu() {
 		int num = 0; int dato;
 		Pila pl = new Pila();
 		Scanner sc = new Scanner(System.in);
@@ -32,6 +31,6 @@ public class Principal {
 			break;
 		case "3":
 			break;
-		}
+		}*/
 	}
 }
